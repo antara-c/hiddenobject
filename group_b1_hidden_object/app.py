@@ -22,13 +22,13 @@ def game():
     object_data_list = []
 
     # API key for Rijksmuseum
-    kims_key = "cvE3WV3H"
+    your_key = "your key"
 
     # list with paintings 
     object_ids = ["SK-C-229"]
 
     # get artwork information
-    artwork_info = importing_art(kims_key, object_ids)[object_ids[0]]
+    artwork_info = importing_art(your_key, object_ids)[object_ids[0]]
     title = artwork_info[2]
     artist = artwork_info[3]
     description = artwork_info[4]
@@ -71,10 +71,10 @@ def success():
     historical_context = context_df[object_ids[0]][0]
 
     # API key for Rijksmuseum
-    kims_key = "cvE3WV3H"
+    your_key = "your key"
     
     # get artwork information
-    artwork_info = importing_art(kims_key, object_ids)[object_ids[0]]
+    artwork_info = importing_art(your_key, object_ids)[object_ids[0]]
     title = artwork_info[2]
     artist = artwork_info[3]
     description = artwork_info[4]    
@@ -98,13 +98,13 @@ def game2():
     object_data_list = []
 
     # API key for Rijksmuseum
-    kims_key = "cvE3WV3H"
+    your_key = "your key"
 
     # list with paintings 
     object_ids = ["SK-A-4821"]
 
     # get artwork information
-    artwork_info = importing_art(kims_key, object_ids)[object_ids[0]]
+    artwork_info = importing_art(your_key, object_ids)[object_ids[0]]
     title = artwork_info[2]
     artist = artwork_info[3]
     description = artwork_info[4]
@@ -148,10 +148,10 @@ def success2():
     historical_context = context_df[object_ids[0]][0]
 
     # API key for Rijksmuseum
-    kims_key = "cvE3WV3H"
+    your_key = "your key"
     
     # get artwork information
-    artwork_info = importing_art(kims_key, object_ids)[object_ids[0]]
+    artwork_info = importing_art(your_key, object_ids)[object_ids[0]]
     title = artwork_info[2]
     artist = artwork_info[3]
     description = artwork_info[4]    
