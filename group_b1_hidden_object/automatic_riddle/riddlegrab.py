@@ -5,8 +5,7 @@ import certifi
 import os
 
 
-#ADAM"S KEY [costs money]
-api_key = "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"
+api_key = "your key"
 
 
 def generate_riddles_response(api_key, artwork_info, object_id):
